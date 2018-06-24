@@ -23,6 +23,7 @@ vendor-deps: rmdeps deps
 
 fmt:
 	go fmt *.go
+	go fmt cmd/*.go
 	go fmt engine/*.go
 
 bin:    self

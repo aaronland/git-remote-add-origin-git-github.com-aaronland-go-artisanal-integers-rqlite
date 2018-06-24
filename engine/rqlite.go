@@ -604,5 +604,5 @@ func (eng *RqliteEngine) do(req *http.Request) (*http.Response, error) {
 }
 
 func (eng *RqliteEngine) Close() error {
-     return nil
+	return nil
 }
